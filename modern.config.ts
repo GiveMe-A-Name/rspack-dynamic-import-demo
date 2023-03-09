@@ -10,4 +10,7 @@ export default defineConfig<'rspack'>({
       bundler: 'experimental-rspack',
     }),
   ],
+  server: {
+    ssr: true,
+  },
 });
